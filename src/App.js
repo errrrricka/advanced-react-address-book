@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import ListOfUsers from "./components/ListOfUsers.js"
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
       <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
       </p>
+
+      <div>
+      <ListOfUsers />
+      </div>
     </div>
   );
 }

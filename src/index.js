@@ -4,6 +4,7 @@ import App from "./App";
 import "./index.css";
 import users from "./users";
 
+console.log(users);
 
 function render() {
   ReactDOM.render(
