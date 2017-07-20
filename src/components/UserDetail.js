@@ -1,11 +1,7 @@
 import React from "react";
 
 function UserDetail(props) {
-  return (
-    <div>
-    hey UserDetail!
-    </div>
-  );
+  return <div>{props.user.first_name}</div>
 }
 
 export default UserDetail;

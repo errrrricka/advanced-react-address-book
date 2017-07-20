@@ -8,7 +8,7 @@ console.log(users);
 
 function render() {
   ReactDOM.render(
-    <App />,
+    <App users={users} />,
     document.getElementById("root")
   );
 }
