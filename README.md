@@ -2,10 +2,10 @@
 * From address book directory, run yarn install, yarn start
 
 ### Do
-* Import the array of users into index.js
-* Create a folder in src called components to hold all our components
-* Create the UserDetail and ListOfUsers functional components
-* Import and use components in App
+* Import the array of users into index.js - DONE
+* Create a folder in src called components to hold all our components - DONE
+* Create the UserDetail and ListOfUsers functional components - DONE
+* Import and use components in App - DONE
 * Send the user array into Apps and then into ListOfUsers
 * Send the first user from the array down into the UserDetail component
 
