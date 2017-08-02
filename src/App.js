@@ -1,16 +1,17 @@
 import React from "react";
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import "./App.css";
 import ListofUsers from "./components/ListofUsers.js";
 import UserDetail from "./components/UserDetail.js";
 
 function App(props) {
   return (
-    <div className="App">
-      <ListofUsers
-      users={props.users}
-      currentUser={props.currentUser}
-      selectUser={props.selectUser} />
+    <div>
+      <div className="App">
+        <ListofUsers
+        selectUser={props.selectUser} users={props.users} />
+        <UserDetail selectedUser={props.selectedUser} />
+      </div>
     </div>
   );
 }

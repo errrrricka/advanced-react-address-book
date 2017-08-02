@@ -4,7 +4,7 @@ import App from "./App";
 import "./index.css";
 import users from "./users";
 
-let currentUser = '';
+var currentUser = '';
 
 function selectUser(user) {
   currentUser = user;
@@ -16,8 +16,9 @@ function render() {
     <App
     users={users}
     currentUser={currentUser}
-    selectUser={selectUser}/>,
+    selectUser={selectUser} />,
     document.getElementById("root")
   );
 }
+
 render();

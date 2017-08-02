@@ -7,7 +7,7 @@
 * DONE Create the UserDetail and ListOfUsers functional components
 * DONE Import and use components in App -
 * DONE Send the user array into Apps and then into ListOfUsers
-* Send the first user from the array down into the UserDetail component
+* ???? Send the first user from the array down into the UserDetail component
 
 ### Do
 * Add a button to the ListOfUsers component that says Hide
