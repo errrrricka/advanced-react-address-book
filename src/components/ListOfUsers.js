@@ -1,10 +1,32 @@
-import React from "react";
+import React, {Component} from "react";
 
-function ListofUsers(props) {
-  const userDivs = props.users.map((user) => {
-    return <div>{user.first_name}</div>
-  })
-  return<div>{userDivs}</div>;
+class ListofUsers extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      visible: true,
+    };
+  }
+
+  render () {
+    const userDivs = this.props.users.map((user) => {
+      return (
+        <div>
+          <div>{user.first_name}</div>
+        </div>
+      )
+    })
+    return (
+      <div>
+        <div>{userDivs}</div>
+        <button onClick={function(){this.state.visible = !this.state.visible;
+        }
+      }>
+      Hide</button>
+      </div>
+    );
+  }
 }
 
 export default ListofUsers;
