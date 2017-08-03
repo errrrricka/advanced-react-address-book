@@ -1,10 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import ListOfUsers from "./components/ListOfUsers.js"
-import UserDetail from "./components/UserDetail.js"
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <div className="App-header">
@@ -14,11 +12,6 @@ function App(props) {
       <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
       </p>
-      <button>onClick={console.log('hello')}</button>
-      <div>
-      <ListOfUsers users={props.users} />
-      <UserDetail user={props.users[0]} />
-      </div>
     </div>
   );
 }
