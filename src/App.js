@@ -14,9 +14,8 @@ function App(props) {
       </div>
       <div>
       <br></br>
-      <ListofUsers selectUser={props.selectUser}
-      users={users}/>
-      <UserDetail user={props.user}/>
+      <ListofUsers users={props.users}/>
+      <UserDetail user={props.users[0]}/>
       </div>
     </div>
   );

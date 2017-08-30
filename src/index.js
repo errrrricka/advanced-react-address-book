@@ -13,8 +13,7 @@ function selectUser(user) {
 
 function render() {
   ReactDOM.render(
-    <App
-    users={users}
+    <App users={users}
     selectUser={selectUser}
     user={currentUser}
     />,
