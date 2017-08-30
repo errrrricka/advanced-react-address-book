@@ -1,23 +1,18 @@
 import React from 'react';
 
+// I need props to have a property called users
+// and it needs to be an array of user objects
+
 function ListofUsers(props) {
-  const userDiv = props.users.map((user) => {
-    return (
-      <div>
-      {user.first_name}
-      </div>
-    );
-  })
+  const users = props.users;
+  const userDivs = users.map(function (user, i) {
+    return <div key={i}> {user.first_name} </div>;
+  });
   return (
-      <div>
-      {userDiv}
-        <button onClick={
-          () => {
-            //put a function right here anyway you want
-            console.log("hello");
-          }
-        }>Hide</button>
-      </div>
+    <div className="ListofUsers">
+    <button type="button">Hide</button>
+    {userDivs}
+    </div>
   );
 }
 
