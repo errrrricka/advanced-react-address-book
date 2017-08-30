@@ -4,7 +4,7 @@ import App from "./App";
 import "./index.css";
 import users from "./users";
 
-var currentUser = '';
+let currentUser = "";
 
 function selectUser(user) {
   currentUser = user;
@@ -13,7 +13,11 @@ function selectUser(user) {
 
 function render() {
   ReactDOM.render(
-    <App users={users} selectUser={selectUser} selectedUser={currentUser} />,
+    <App
+    users={users}
+    selectUser={selectUser}
+    user={currentUser}
+    />,
     document.getElementById("root")
   );
 }

@@ -32,9 +32,9 @@
 * DONE--- In onChange handler function, setState the searchText to the value from the textbox
 
 ### Do
-* Create a variable called currentUser in index.js.
-* Define a function in index.js called selectUser that will take a user as a parameter and then set that user as the currentUser.
-* Send this function down the child tree so that ListOfUsers can call it
-* Change index.js to send currentUser down the child tree instead of App.js hard coding the first one
+* DONE--- Create a variable called currentUser in index.js.
+* DONE--- Define a function in index.js called selectUser that will take a user as a parameter and then set that user as the currentUser.
+* DONE--- Send this function down the child tree so that ListOfUsers can call it
+* DONE--- Change index.js to send currentUser down the child tree instead of App.js hard coding the first one (app should give currentUser to UserDetail)
 * Register click event for ListOfUsers view link, call the function sent into props by parents, supply the argument of whatever user was clicked on.
 * Re render the components
