@@ -11,9 +11,9 @@
 
 ### Do
 * DONE--- Add a button to the ListOfUsers component that says Hide
-* Add an onClick to the button and a handler
-* Make clicking the button hide the list and change the text to “Show”
-* If you click it again it will show the list and change the text back to “Hide”
+* DONE--- Add an onClick to the button and a handler
+* DONE--- Make clicking the button hide the list and change the text to “Show”
+* DONE--- If you click it again it will show the list and change the text back to “Hide”
 
 ### Do
 *  DONE--- Change ListofUsers to be a class component
@@ -23,13 +23,13 @@
 *  DONE--- Add a method called “render” that returns the jsx the function returned
 
 ### Do
-* Add text box anywhere to ListOfUsers with a label “Search”
-* In ListOfUsers add a state property “searchText”, default to “”
-* Assign searchText to the value attribute of the text box
+* DONE--- Add text box anywhere to ListOfUsers with a label “Search”
+* DONE--- In ListOfUsers add a state property “searchText”, default to “”
+* DONE--- Assign searchText to the value attribute of the text box
 
 ### Do
-* Add onChange to text box
-* In onChange handler function, setState the searchText to the value from the textbox
+* DONE--- Add onChange to text box
+* DONE--- In onChange handler function, setState the searchText to the value from the textbox
 
 ### Do
 * Create a variable called currentUser in index.js.
